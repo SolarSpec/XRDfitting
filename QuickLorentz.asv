@@ -47,13 +47,13 @@ InitialGuess = [GuessPeakY, GuessPeakX, GuessPeakWidth, GuessOffset, GuessSlope]
     FitIntensity,[0 min(FitAngle) 0 0 -inf],[max(FitIntensity) max(FitAngle) 10 max(FitIntensity) inf]);
 
 FitResult = LorentzFit(FitParams,FitAngle);
-plot(FitAngle,FitIntensity,FitAngle,FitResult,'LineWidth',1)
+plot(FitAngle,FitIntensity,FitAngle,FitResult)
 
-xlabel('2θ (°)');
+xlabel('2θ');
 ylabel('Intensity');
-legend('Data','Fit');
+legend('TotalFit','Data','Background');
 legend('boxoff','bold','fontsize',9);
 
 FWHM=2*sqrt(FitParams(3))       % Output the FWHM of the peak
-FWHMstr = ['The peak FWHM is ' num2str(FWHM) '° .'];
-annotation("textbox",[0.15 0.7 0.1 0.1],'String', FWHMstr);
+FWHMstr = ['The peak FWHM is ' num2str(FWHM) '.']
+annotation("textbox",[.2 .5 .3 .3],String=)
