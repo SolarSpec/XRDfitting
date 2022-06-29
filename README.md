@@ -107,14 +107,13 @@ Make sure MATLAB is installed. It is available for download in the Software Dist
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+The user can run the QuickLorentz.m script which will open a UI prompt asking for either a .csv or .txt file of arbitrary XRD data. A figure is created that plots the Intensity vs. θ/2θ. The user is then asked to select the fitting bounds by clicking on two separate locations of the axes or press the escape key twice to use the full range of data. Once chosen, the script will calculate a Lorentz peak fit that will overlay the orginal data and output the Full Width Half Maximum (FWHM) value into the MATLAB Command Window as well as a plot annotation.
 
-This app is currently lacking in any examples to be shown as it is still being created
+This app is currently lacking in any examples. Coming soon!
 
 _For more information on any of the internal functions, please refer to the [MATLAB Documentation](https://www.mathworks.com/help/matlab/)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -122,8 +121,6 @@ _For more information on any of the internal functions, please refer to the [MAT
 See the [open issues](https://github.com/SolarSpec/XRDfitting/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -141,16 +138,12 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- LICENSE -->
 ## License
 
 Distributed under the BSD 3-Clause License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- CONTACT -->
 ## Contact
@@ -161,8 +154,6 @@ Project Link: [https://github.com/SolarSpec/XRDfitting](https://github.com/Solar
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
@@ -171,8 +162,6 @@ Project Link: [https://github.com/SolarSpec/XRDfitting](https://github.com/Solar
 * [The Entire SolarSpec Team](https://solarspec.ok.ubc.ca/people/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
